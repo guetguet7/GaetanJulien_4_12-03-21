@@ -775,7 +775,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -783,8 +783,7 @@ h4 {
     color: #000000!important;
 }
 
-.ltc-white,
-p.black{
+.ltc-white{
     color: #000000!important;
 }
 
@@ -803,14 +802,6 @@ p.black{
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.jpg");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.jpg");
 }
 
 .bg-banniere {
