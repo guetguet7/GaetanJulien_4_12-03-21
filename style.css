@@ -134,7 +134,7 @@ a:hover {
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc p a:hover{
     color: rgba(255, 255, 255, 1);
 }
 
@@ -696,8 +696,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+display: flex;
+flex-wrap: wrap;
+padding: 20px;
+justify-content: space-around;
 }
 
 h2 {
@@ -731,6 +733,7 @@ h4 {
     margin-top: 24px;
 }
 
+
 .white {
     color: #000000!important;
 }
@@ -762,10 +765,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
@@ -782,14 +781,6 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #000000!important;
-}
-
-.ltc-white{
-    color: #000000!important;
-}
-
-.ltc-white:hover {
-    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
