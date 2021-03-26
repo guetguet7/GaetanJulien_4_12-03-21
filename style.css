@@ -41,7 +41,7 @@ a:hover {
 .bloc .container {
     margin-left: auto;
     margin-right: auto;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .bloc-lg {
@@ -695,6 +695,7 @@ display: flex;
 flex-wrap: wrap;
 padding: 20px;
 justify-content: space-around;
+text-decoration: none;
 }
 
 h2 {
