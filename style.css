@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFFFFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -41,7 +40,7 @@ a:hover {
 .bloc .container {
     margin-left: auto;
     margin-right: auto;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .bloc-lg {
@@ -428,13 +427,11 @@ nav .caret {
     float: right;
 }
 
-.info
-{display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-
-
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .mg-md {
@@ -637,8 +634,6 @@ a[data-lightbox]:hover img {
 }
 
 h3,
-h4,
-h5,
 h6,
 p,
 label,
@@ -697,8 +692,9 @@ p {
 .social {
 display: flex;
 flex-wrap: wrap;
-padding: 20px;
+padding: 10px;
 justify-content: space-around;
+text-decoration: none;
 }
 
 h2 {
@@ -711,7 +707,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -726,7 +722,7 @@ h1 {
 }
 
 h4 {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .icons {
@@ -808,10 +804,8 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
     width: 100%;
     opacity: 0.7;
-    height: 500px;
+    height: 400px;
 }
-
-
 
 @media (max-width: 1024px) {
     .bloc {
@@ -970,8 +964,8 @@ h4 {
     }
     .bloc-sm,
     .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
