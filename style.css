@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFFFFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -693,7 +692,7 @@ p {
 .social {
 display: flex;
 flex-wrap: wrap;
-padding: 20px;
+padding: 10px;
 justify-content: space-around;
 text-decoration: none;
 }
@@ -723,7 +722,7 @@ h1 {
 }
 
 h4 {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .icons {
@@ -965,8 +964,8 @@ h4 {
     }
     .bloc-sm,
     .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
