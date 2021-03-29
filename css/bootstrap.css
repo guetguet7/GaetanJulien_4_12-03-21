@@ -1430,6 +1430,7 @@ img {
     vertical-align: middle;
     height: auto;
     max-width: 100%;
+    border-radius: 80px;
 }
 
 .carousel-inner>.item>a>img,
