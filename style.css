@@ -690,11 +690,11 @@ p {
 }
 
 .social {
-display: flex;
-flex-wrap: wrap;
-padding: 10px;
-justify-content: space-around;
-text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    text-decoration: none;
 }
 
 h2 {
