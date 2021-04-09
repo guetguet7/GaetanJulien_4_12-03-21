@@ -714,6 +714,13 @@ h3 {
 
 h1 {
     color: #000000!important;
+    border-radius: 30px;
+    width: 430px;
+    background-color: #F3976C;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin: 10px auto;
 }
 
 h4 {
@@ -791,6 +798,14 @@ h4 {
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
     width: 100%;
+    color: #000000!important;
+    border-radius: 30px;
+    width: 600px;
+    background-color: #F3976C;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin: 10px auto;
     height: 270px;
 }
 
