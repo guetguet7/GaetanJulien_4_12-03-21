@@ -644,9 +644,6 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
-    font-size: 42px;
-}
 
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -694,9 +691,11 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 32px;
     color: #000000;
     line-height: 1.4em;
+    display: flex;
+    justify-content: center;
 }
 
 h3 {
@@ -715,7 +714,7 @@ h3 {
 h1 {
     color: #000000!important;
     border-radius: 30px;
-    width: 430px;
+    width: 85%;
     background-color: #F3976C;
     display: flex;
     padding: 10px;
@@ -870,14 +869,17 @@ h4 {
     }
     h1,
     h2,
-    h3,
     h4,
-    h5,
     h6,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
         font-size: x-large;
+    }
+
+    h5{
+        font-size: 17px;
+        width: 90%;
     }
     .b-parallax {
         background-attachment: scroll;

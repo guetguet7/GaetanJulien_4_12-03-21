@@ -1616,11 +1616,10 @@ h4 {
 
 .h5,
 h5 {
-    font-size: 38px;
-
+    font-size: 26px;
     color: #000000;
     border-radius: 30px;
-    width: 600px;
+    width: 70%;
     background-color: #F3976C;
     display: flex;
     padding: 10px;
