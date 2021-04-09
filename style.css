@@ -796,14 +796,12 @@ h4 {
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
     width: 100%;
-    opacity: 0.7;
     height: 270px;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
     width: 100%;
-    opacity: 0.7;
     height: 400px;
 }
 
