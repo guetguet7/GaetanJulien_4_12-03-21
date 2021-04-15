@@ -17,6 +17,10 @@ a:hover {
     cursor: pointer;
 }
 
+.page-container{   
+    max-width: 2000px;
+    margin: auto;}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
